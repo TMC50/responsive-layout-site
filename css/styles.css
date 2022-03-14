@@ -45,18 +45,20 @@ html {
     text-transform: uppercase;
 }
 
-.content-section {
-    padding-left: .5rem;
-    padding-right: .5rem;
-    padding-bottom: 2rem;
-}
-
-.content1 {
-    padding-bottom: 1rem;
-}
-
 a {
 	text-decoration: none;
+}
+
+a:link {
+   color: black; 
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: green;
 }
 
 h2 {
@@ -81,6 +83,16 @@ img {
     max-width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
+}
+
+.content-section {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-bottom: 2rem;
+}
+
+.content1 {
+    padding-bottom: 1rem;
 }
 
 .main-nav-bottom {
@@ -168,22 +180,6 @@ img {
 /*------Media Queries------*/
 
 @media (min-width: 768px) {
-
-    .content-section {
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .content1 {
-        width: 47vw;
-        padding-bottom: 2rem;
-    }
     
     h2 {
         font-size: 18px;
@@ -221,6 +217,22 @@ img {
         width: 35vw;
     }
 
+    .content-section {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .content1 {
+        width: 47vw;
+        padding-bottom: 2rem;
+    }
+
     .contact-section {
         padding: 2rem 10rem;
     }
@@ -238,22 +250,6 @@ img {
 
 @media (min-width: 1024px) {
     
-    .content-section {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .content1 {
-        width: 30vw;
-        padding-bottom: 2rem;
-    }
-
     .header-section {
         display: flex;
         flex-direction: row;
@@ -284,6 +280,22 @@ img {
 
     .intro-image {
         width: 45vw;
+    }
+
+    .content-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .content1 {
+        width: 30vw;
+        padding-bottom: 2rem;
     }
 
     .contact-section {
