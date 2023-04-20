@@ -1,2 +1,2 @@
 # responsive-layout-site
- My second Techdegree project
+ Project 2: Responsive Layout Site
